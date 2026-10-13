@@ -47,18 +47,17 @@ The simulations were performed using the same general operating conditions for b
 
 | Parameter | Value |
 |---|---|
-| **Analysis type** | Conjugate Heat Transfer (CHT) |
-| **Flow regime** | Incompressible |
-| **Turbulence model** | k-ω SST |
-| **Coolant** | 50% Ethylene Glycol + 50% Water |
-| **Solid material** | Aluminium |
-| **Wall heat flux** | 400 W/m² |
-| **Inlet pressure** | 2000 Pa |
-| **Inlet temperature** | 20 °C |
-| **Outlet pressure** | 20 Pa |
-| **Outlet temperature** | 20 °C |
-| **Mesh fineness** | 5 |
-| **Simulation type** | Steady-state CHT |
+| Analysis Type | Conjugate Heat Transfer (CHT) |
+| Flow Regime | Incompressible |
+| Turbulence Model | k-ω SST |
+| Coolant | 50% Ethylene Glycol + 50% Water |
+| Solid Material | Aluminium |
+| Applied Surface Heat Flux | 400 W/m² |
+| Inlet Pressure | 2000 Pa |
+| Ambient Temperature at Outlet Pressure Boundary | 20°C |
+| Outlet Pressure | 20 Pa |
+| Mesh Fineness | 5 |
+| Simulation Type | Steady-State CHT |
 
 ---
 
@@ -177,17 +176,13 @@ Compared with Design 1, several monitored variables exhibit more noticeable fluc
 
 # Comparative Analysis
 
-The two cold-plate configurations were compared based on their qualitative temperature and velocity fields as well as their residual histories.
-
 | Parameter | Design 1 | Design 2 |
 |---|---|---|
-| Channel configuration | Distributed serpentine passages | Modified serpentine/manifold configuration |
-| Mesh fineness | 5 | 5 |
-| Thermal field | Distributed temperature gradient | More pronounced spatial temperature variation |
-| Flow distribution | Relatively distributed through channels | Greater local velocity variation |
-| Manifold effect | Less pronounced | More pronounced |
-| Residual behavior | Relatively stable after initial reduction | More noticeable fluctuations |
-| Numerical assessment | Stable solution regime | Stable solution regime with greater fluctuations |
+| Channel Configuration | Multiple closely spaced serpentine passages | Modified channel arrangement with a larger central manifold |
+| Velocity Distribution | Flow distributed across multiple passages | More pronounced local velocity variations near the manifold |
+| Temperature Distribution | Spatial temperature gradient across the plate | Different spatial temperature distribution with a pronounced gradient |
+| Residual Behavior | Substantial reduction followed by fluctuations | Substantial reduction with more noticeable later fluctuations |
+| Quantitative Performance | Temperature and heat-transfer metrics not extracted | Temperature and heat-transfer metrics not extracted |
 
 ---
 
